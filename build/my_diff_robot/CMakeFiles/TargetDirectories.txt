@@ -1,0 +1,9 @@
+/root/ros2_ws/build/my_diff_robot/CMakeFiles/uninstall.dir
+/root/ros2_ws/build/my_diff_robot/CMakeFiles/my_diff_robot_uninstall.dir
+/root/ros2_ws/build/my_diff_robot/CMakeFiles/test.dir
+/root/ros2_ws/build/my_diff_robot/CMakeFiles/edit_cache.dir
+/root/ros2_ws/build/my_diff_robot/CMakeFiles/rebuild_cache.dir
+/root/ros2_ws/build/my_diff_robot/CMakeFiles/list_install_components.dir
+/root/ros2_ws/build/my_diff_robot/CMakeFiles/install.dir
+/root/ros2_ws/build/my_diff_robot/CMakeFiles/install/local.dir
+/root/ros2_ws/build/my_diff_robot/CMakeFiles/install/strip.dir

@@ -1,0 +1,1 @@
+/root/ros2_ws/build/my_diff_robot/ament_cmake_core/my_diff_robotConfig-version.cmake
