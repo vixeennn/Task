@@ -67,3 +67,6 @@ Once the container is running and you are inside its terminal, launch the ROS2 e
 ```bash
 ros2 launch my_diff_robot robot.launch.py
 ```
+## 🎥 Demo Video
+
+[▶️ Watch the demonstration video on Google Drive](https://drive.google.com/file/d/19fYYjvDl7gmC_i0PENhkLgBdngRZbt5G/view?usp=drive_link)
