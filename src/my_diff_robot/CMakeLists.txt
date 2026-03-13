@@ -22,6 +22,7 @@ install(
 install(
   PROGRAMS
     scripts/simple_teleop.py
+    scripts/safety_node.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

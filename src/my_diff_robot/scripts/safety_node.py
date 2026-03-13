@@ -1,10 +1,11 @@
+#!/usr/bin/env python3
 import copy
 import math
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import LaserScan
 from geometry_msgs.msg import TwistStamped
-
+from rclpy.executors import ExternalShutdownException
 class SafetyController(Node):
     def __init__(self):
         super().__init__('safety_controller')
@@ -103,11 +104,13 @@ def main(args=None):
     node = SafetyController()
     try:
         rclpy.spin(node)
-    except KeyboardInterrupt:
+    except (KeyboardInterrupt, ExternalShutdownException):
         pass
     finally:
         node.destroy_node()
-        rclpy.shutdown()
+       
+        if rclpy.ok():
+           rclpy.shutdown()
 
 if __name__ == '__main__':
     main()

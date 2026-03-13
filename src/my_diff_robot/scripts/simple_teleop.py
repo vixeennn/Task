@@ -3,10 +3,14 @@ import sys, tty, termios
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import TwistStamped
+import subprocess
 
 class SimpleTeleop(Node):
     def __init__(self):
         super().__init__('simple_teleop')
+
+       
+
         #self.pub = self.create_publisher(TwistStamped, '/diff_drive_controller/cmd_vel', 10)
         self.pub = self.create_publisher(TwistStamped, '/teleop_cmd_vel', 10)
         print("w=fwd x=back a=left d=right s=stop q=quit")
