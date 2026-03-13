@@ -1,0 +1,51 @@
+[0.047s] Invoking command in '/root/ros2_ws/build/my_diff_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/my_diff_robot -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/my_diff_robot
+[0.550s] -- The C compiler identification is GNU 13.2.0
+[0.956s] -- The CXX compiler identification is GNU 13.2.0
+[1.004s] -- Detecting C compiler ABI info
+[1.199s] -- Detecting C compiler ABI info - done
+[1.212s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.214s] -- Detecting C compile features
+[1.215s] -- Detecting C compile features - done
+[1.240s] -- Detecting CXX compiler ABI info
+[1.428s] -- Detecting CXX compiler ABI info - done
+[1.440s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.440s] -- Detecting CXX compile features
+[1.441s] -- Detecting CXX compile features - done
+[1.522s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.767s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.192s] -- Configuring done (2.1s)
+[2.202s] -- Generating done (0.0s)
+[2.205s] -- Build files have been written to: /root/ros2_ws/build/my_diff_robot
+[2.212s] Invoked command in '/root/ros2_ws/build/my_diff_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /root/ros2_ws/src/my_diff_robot -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/my_diff_robot
+[2.215s] Invoking command in '/root/ros2_ws/build/my_diff_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/my_diff_robot -- -j8 -l8
+[2.302s] Invoked command in '/root/ros2_ws/build/my_diff_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /root/ros2_ws/build/my_diff_robot -- -j8 -l8
+[2.328s] Invoking command in '/root/ros2_ws/build/my_diff_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/my_diff_robot
+[2.348s] -- Install configuration: ""
+[2.348s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/urdf
+[2.350s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/urdf/robot.urdf
+[2.352s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/launch
+[2.353s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/launch/robot.launch.py
+[2.354s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/config
+[2.355s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/config/controllers.yaml
+[2.357s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/config/gz_bridge.yaml
+[2.358s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/rviz
+[2.359s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/rviz/robot.rviz
+[2.360s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/worlds
+[2.360s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/worlds/empty.sdf
+[2.362s] -- Installing: /root/ros2_ws/install/my_diff_robot/lib/my_diff_robot/simple_teleop.py
+[2.366s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/ament_index/resource_index/package_run_dependencies/my_diff_robot
+[2.370s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/ament_index/resource_index/parent_prefix_path/my_diff_robot
+[2.372s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/environment/ament_prefix_path.sh
+[2.373s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/environment/ament_prefix_path.dsv
+[2.374s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/environment/path.sh
+[2.377s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/environment/path.dsv
+[2.377s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/local_setup.bash
+[2.379s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/local_setup.sh
+[2.379s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/local_setup.zsh
+[2.379s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/local_setup.dsv
+[2.379s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/package.dsv
+[2.380s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/ament_index/resource_index/packages/my_diff_robot
+[2.381s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/cmake/my_diff_robotConfig.cmake
+[2.381s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/cmake/my_diff_robotConfig-version.cmake
+[2.382s] -- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/package.xml
+[2.387s] Invoked command in '/root/ros2_ws/build/my_diff_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /root/ros2_ws/build/my_diff_robot

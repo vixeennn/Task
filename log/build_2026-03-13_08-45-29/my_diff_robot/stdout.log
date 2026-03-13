@@ -1,0 +1,45 @@
+-- The C compiler identification is GNU 13.2.0
+-- The CXX compiler identification is GNU 13.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (2.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /root/ros2_ws/build/my_diff_robot
+-- Install configuration: ""
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/urdf
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/urdf/robot.urdf
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/launch
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/launch/robot.launch.py
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/config
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/config/controllers.yaml
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/config/gz_bridge.yaml
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/rviz
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/rviz/robot.rviz
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/worlds
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/worlds/empty.sdf
+-- Installing: /root/ros2_ws/install/my_diff_robot/lib/my_diff_robot/simple_teleop.py
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/ament_index/resource_index/package_run_dependencies/my_diff_robot
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/ament_index/resource_index/parent_prefix_path/my_diff_robot
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/environment/ament_prefix_path.sh
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/environment/ament_prefix_path.dsv
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/environment/path.sh
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/environment/path.dsv
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/local_setup.bash
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/local_setup.sh
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/local_setup.zsh
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/local_setup.dsv
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/package.dsv
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/ament_index/resource_index/packages/my_diff_robot
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/cmake/my_diff_robotConfig.cmake
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/cmake/my_diff_robotConfig-version.cmake
+-- Installing: /root/ros2_ws/install/my_diff_robot/share/my_diff_robot/package.xml
