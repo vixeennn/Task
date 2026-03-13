@@ -26,7 +26,8 @@ my_diff_robot/
 ├── run_robot.sh              # Script to build and run the containerized app
 ├── Dockerfile                
 └── README.md
-## 🛠️ Design Description & Key Choices
+```
+  ## 🛠️ Design Description & Key Choices
 The solution is designed around an **Interceptor Pattern** to ensure safety without modifying the core drive controllers:
 
 * **Directional Safety Node:** The `safety_node.py` subscribes to both `/scan` (LiDAR) and `/teleop_cmd_vel`. It evaluates the intended direction of travel (forward or reverse) and calculates the minimum distance to obstacles in that specific direction.
@@ -51,7 +52,7 @@ This project is fully containerized for easy deployment. Ensure you have Docker 
 ```bash
 git clone <YOUR_REPOSITORY_URL>
 cd <YOUR_REPOSITORY_NAME>
-
+```
 **2. Build and start the container:**
 Navigate to the project directory and run the provided shell script. This will automatically build the Docker image (using the `Dockerfile`) and start the container with the necessary volume mounts and network configurations.
 
@@ -59,9 +60,10 @@ Navigate to the project directory and run the provided shell script. This will a
 cd ~/ros2_ws/src/my_diff_robot
 chmod +x run_robot.sh
 ./run_robot.sh
-
+```
 **3. Launch the Robot System:**
 Once the container is running and you are inside its terminal, launch the ROS2 environment:
 
 ```bash
 ros2 launch my_diff_robot robot.launch.py
+```
